@@ -18,3 +18,4 @@ INSERT INTO felhasznalok (id, nev, szerepkor, tel_szam, email, szuletesi_date, s
 SELECT * FROM felhasznalok
 SELECT id, nev, hozzatartozo_tel FROM felhasznalok;
 SELECT COUNT(*) FROM felhasznalok;
+SELECT COUNT(*) AS szamlalo FROM felhasznalok;
