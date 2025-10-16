@@ -16,6 +16,6 @@ CREATE Table IF NOT EXISTS felhasznalok (
 INSERT INTO felhasznalok (id, nev, szerepkor, tel_szam, email, szuletesi_date, szuletesi_place, cim, stage, hozzatartozo_tel) VALUES(NULL, 'Kovacs David', 'admin', '06-30-476-5438', 'kovdav@gmail.com', '2000-12-16', 'Budapest', 'Kecskemet Bogar u 27', 1, '06-30-123-4567')
 
 SELECT * FROM felhasznalok
-SELECT id, nev, hozzatartozo_tel FROM felhasznalok;
-SELECT COUNT(*) FROM felhasznalok;
-SELECT COUNT(*) AS szamlalo FROM felhasznalok;
+SELECT id, nev, hozzatartozo_tel FROM felhasznalok,
+SELECT COUNT(*) FROM felhasznalok,
+SELECT COUNT(*) AS szamlalo FROM felhasznalok,
