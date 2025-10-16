@@ -19,3 +19,4 @@ SELECT * FROM felhasznalok
 SELECT id, nev, hozzatartozo_tel FROM felhasznalok,
 SELECT COUNT(*) FROM felhasznalok,
 SELECT COUNT(*) AS szamlalo FROM felhasznalok,
+ALTER TABLE felhasznalok ADD szemelyigsz VARCHAR(8) NOT NULL,
